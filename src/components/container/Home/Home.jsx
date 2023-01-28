@@ -57,13 +57,15 @@ const Home = () => {
             whileHover={{ scale: 1.1 }}
             variants={moveVariants}
             animate="animation"
+            className='connect-btn'
           >
             connect with me</motion.a>
           <div className='skill-container'>
             <div
-              className="web"
+              className="web">
+                
 
-            >
+            
               Web Developer
             </div>
             <div

@@ -1,14 +1,33 @@
-import { FaHtml5, FaCss3, FaJava, FaReact, FaSass, FaFigma, FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
-import { DiJavascript } from "react-icons/di";
-import { SiTypescript } from "react-icons/si";
+import {   FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+// import { DiJavascript } from "react-icons/di";
+// import { SiTailwindcss } from "react-icons/si";
 import { BsMedium } from "react-icons/bs";
 // import portfolio from "./assets/portfolio.jpg"
-import work1 from "./assets/work1.png";
-import work2 from "./assets/work2.png";
-import work3 from "./assets/work3.png";
-import work4 from "./assets/work4.png";
-import work5 from "./assets/work5.png";
-import work6 from "./assets/work6.png";
+import c from './assets/c.png';
+import cpp from './assets/cpp.png';
+import java from './assets/java.png';
+import html from './assets/html.png';
+import css from './assets/css.png';
+import js from './assets/javascript.png';
+import reacticon from './assets/react.png';
+import redux from './assets/redux.png';
+import bootstrap from './assets/bootstrap.png'
+import talwind from './assets/talwind.png';
+import figma from './assets/figma.png';
+import firebase from './assets/firebase.png';
+import work1 from "./assets/crypto.mp4";
+import work2 from "./assets/portfolio.mp4";
+import work3 from "./assets/omnifood.mp4";
+import work4 from './assets/bankist.mp4';
+import work5 from './assets/superhero.mp4';
+import work6 from './assets/music.mp4';
+
+// import work1 from './assets/work1.png';
+// import work2 from "./assets/work2.png";
+// import work3 from "./assets/work3.png";
+// import work4 from "./assets/work4.png";
+// import work5 from "./assets/work5.png";
+// import work6 from "./assets/work6.png";
 
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"]
 
@@ -40,7 +59,7 @@ export const bios = [
   }
 ]
 
-export const icons = [<FaHtml5 />, <FaCss3 />, <DiJavascript />, <SiTypescript />, <FaReact />, <FaJava />, <FaSass />, <FaFigma />]
+export const icons = [c, cpp, java, html, css, js , reacticon, redux, talwind,bootstrap,figma,firebase]
 
 export const experiences = [
   {
@@ -111,7 +130,7 @@ export const workImages = [
     img: work4,
     name: "project 4",
     category: "app",
-    git:"https://github.com/saurabh317/MUSIC__PLAYER-FRONT-END",
+    git:"https://github.com/saurabh317/BANKIST-FRONT-END-",
     liveDemo:"",
   },
   {
@@ -127,7 +146,7 @@ export const workImages = [
     img: work6,
     name: "project 6",
     category: "design",
-    git:"https://github.com/saurabh317/REACT-PRACTICE-7-TODO-LIST",
+    git:"https://github.com/saurabh317/MUSIC__PLAYER-FRONT-END",
     liveDemo:"",
   }
 ]

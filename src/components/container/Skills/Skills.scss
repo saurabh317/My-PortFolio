@@ -1,3 +1,6 @@
+#skillSec{
+  width: 100vw;
+}
 .select {
     display: flex;
     justify-content: center;
@@ -17,7 +20,7 @@
             font-family: "Poppins";
 
             &.active {
-                background: #20c997;
+                background: #21D49E;
                 color: #fff;
             }
     }
@@ -96,7 +99,11 @@
   color: #fff;
 
   .number {
-    color: #20c997;
+    color: #21D49E;
     font-size: 1.7rem;
   }
+}
+
+img{
+  width: 75%;
 }

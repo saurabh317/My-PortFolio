@@ -15,6 +15,7 @@
         }
     }
     .profile_text {
+       
         margin-top: 1rem;
         display: flex;
         flex-direction: column;
@@ -29,7 +30,7 @@
                 text-align: center;
             }
             span {
-                color: #20c997;
+                color: #21D49E;
                 text-align: center;
                 right: 10%;
             }
@@ -58,7 +59,7 @@
                     margin-top: 3rem;
                     text-decoration: none;
                     color: #000;
-                    background: #fff;
+                    background:#21D49E;
                     padding: 0.65rem 1rem;
                     border-radius: 10px;
                     font-size: 0.85rem;
@@ -102,6 +103,8 @@
     justify-content: space-between;
     margin: 3rem;
 }
+
+
 
 // .ityped-cursor{
 //     animation: blink 1s infinite;

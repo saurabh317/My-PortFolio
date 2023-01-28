@@ -18,7 +18,7 @@ const Portfolio = () => {
         return workImage.category.toLowerCase() === tab.name;
 
       })
-      setWorks(newWork)
+      setWorks(newWork);
     }
   }, [ tab ])
 
@@ -65,7 +65,9 @@ const Portfolio = () => {
             <div className="workImage"
               key={work.id}
             >
-              <img src={work.img} alt="workImg" />
+              {/* <img src={work.img} alt="project"  /> */}
+              <video className="videos" width='100%' height='100%' type="video/mp4" autoPlay muted
+              src={work.img}></video>
 
               <motion.div
                 initial={{ opacity: 0 }}
