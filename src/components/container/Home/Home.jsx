@@ -51,21 +51,9 @@ const Home = () => {
         <div className="profile_text">
           <h3 className='name'>Hi  I'm <span>Saurabh Sagar Pandey</span> </h3>
           <h3 className='job'>Front-End Developer<span> Based on India </span></h3>
-          <span className='text'>Passionate<br /> to craft innovative <br />  web products.</span>
-          <motion.a
-            href="#contact"
-            whileHover={{ scale: 1.1 }}
-            variants={moveVariants}
-            animate="animation"
-            className='connect-btn'
-          >
-            connect with me</motion.a>
           <div className='skill-container'>
             <div
               className="web">
-                
-
-            
               Web Developer
             </div>
             <div
@@ -79,6 +67,16 @@ const Home = () => {
               Freelancer
             </div>
           </div>
+          <span className='text'>Passionate<br /> to craft innovative <br />  web products.</span>
+          <motion.a
+            href="#contact"
+            whileHover={{ scale: 1.1 }}
+            variants={moveVariants}
+            animate="animation"
+            className='connect-btn'
+          >
+            connect with me</motion.a>
+         
         </div>
       </motion.div>
     </div>
