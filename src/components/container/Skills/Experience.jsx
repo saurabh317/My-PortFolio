@@ -1,5 +1,4 @@
 import styles from './Experience.module.css';
-// import check from '../../../assets/check.svg';
 const Experience = () => {
     return (
         <>

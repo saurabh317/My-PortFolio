@@ -1,6 +1,5 @@
 #skillSec{
-  width: 100vw;
-  overflow-x: hidden;
+  max-width: 100vw;
 }
 .select {
     display: flex;
@@ -51,9 +50,8 @@
   }
 }
 .experiencs {
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+   display: flex;
+
     color: #fff;
     .experience {
       display: flex;

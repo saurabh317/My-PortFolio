@@ -7,10 +7,10 @@
 
 .mainContainer {
   padding: 1rem;
-  background-color:#e5fbf4;
+  background-color:#0D0C0C;
   border: 2px solid #21d49e;
-  height: fit-content;
-  width: 30rem;
+  /* height: fit-content; */
+  width: 25rem;
   border-radius: 10px;
   margin:1rem;
   display: flex;
@@ -47,8 +47,8 @@
 }
 li{
   list-style-type:circle;
-  color: #222;
-  font-size: 1.1rem;
+  color: #e5fbf4;
+  font-size: 1rem;
   /* font-weight: bold; */
   /* text-align: justify; */
   

@@ -139,7 +139,7 @@ export const workImages = [
     name: "project 5",
     category: 'app',
     git:"https://github.com/saurabh317/SUPER-HERO-JAVASCRIPT",
-    liveDemo:"",
+    liveDemo:"https://saurabh317.github.io/SUPER-HERO-JAVASCRIPT/",
   },
   {
     id: 6,
