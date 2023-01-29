@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    /* overflow-x: hidden; */
 }
 body {
     background: #0D0C0C;
@@ -19,7 +20,7 @@ section{
 
 
 .container {
-    max-width:1224px;
+    width:100%;
     min-height: 100vh;
     padding: 3rem 1.5rem 0 1.5rem;
     margin: 0 auto;

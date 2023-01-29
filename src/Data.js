@@ -114,7 +114,7 @@ export const workImages = [
     img: work2,
     name: "project 2",
     category: "web",
-    git:"local2",
+    git:"https://github.com/saurabh317/My-PortFolio",
     liveDemo:"",
   },
   {
