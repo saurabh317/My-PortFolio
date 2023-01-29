@@ -8,13 +8,11 @@ const Navbar = () => {
     return (
         <>
             <nav>
-                {/* <ul className="menu"> */}
                     <a href="#home"><AiOutlineHome/></a>
                     <a href="#about"><AiOutlineUserAdd/></a>
                     <a href="#skills"><BiBook/></a>
                     <a href="#portfolio"><GiSupersonicArrow/></a>
                     <a href="#contact"><BiMessageSquareDots/></a>
-                {/* </ul> */}
             </nav>
         </>
 

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import "./Skills.scss";
 import { icons } from '../../../Data';
-// import { experiences } from '../../../Data';
 import { finishes } from '../../../Data';
 import { motion } from 'framer-motion';
 import Experience from './Experience';
@@ -40,7 +39,7 @@ const Skills = () => {
           {active === 1 && icons.map((icon, index) => {
             return (
               <div key={Math.random()} className="tools" >
-                {/* {icon} */}
+
                 <img src={icon} alt="" />
               </div>
             )
@@ -54,11 +53,11 @@ const Skills = () => {
 
           {(active === 2) && (<Experience />)}
 
-            
 
 
 
-          
+
+
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}

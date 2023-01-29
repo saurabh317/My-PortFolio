@@ -1,6 +1,5 @@
 import React from 'react';
-import "./Footer.scss"
-import { socialIcons } from '../../../Data';
+import "./Footer.scss";
 import { motion } from 'framer-motion';
 
 const Footer = () => {
@@ -17,20 +16,6 @@ const Footer = () => {
     >
       <div className="copyright">
         <p>Copyright&copy;2022 All rights reserved.Made by <span>Saurabh Sagar Pandey</span></p>
-      </div>
-      <div className="followMe">
-        <h4>Follow Me</h4>
-        <div className="stick"></div>
-        <div className="social_icons">
-            {socialIcons.map((socialIcon, index) => {
-            return (
-              <div key={index} >
-                 <img src={socialIcon.img} alt=""/>
-               
-              </div>
-            )
-          })}
-          </div>
       </div>
     </motion.div>
     </section>

@@ -1,7 +1,6 @@
 import React from 'react'
 import "./About.scss";
 import Resume from '../../../assets/resume.pdf';
-
 import { motion } from 'framer-motion';
 import { bios } from '../../../Data';
 import portfolio from "../../../assets/portfolio.jpg";

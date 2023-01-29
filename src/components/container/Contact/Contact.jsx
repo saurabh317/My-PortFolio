@@ -1,11 +1,10 @@
 import React from 'react';
 import "./Contact.scss";
 import { contacts } from '../../../Data';
-// import { socialIcons } from '../../../Data';
 import { motion } from 'framer-motion';
 import  { useRef } from 'react';
 import emailjs from 'emailjs-com';
-// import Icon from '../Icon/Icon';
+
 
 const Contact = () => {
   const form = useRef();

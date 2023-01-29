@@ -22,12 +22,6 @@ import work4 from './assets/bankist.mp4';
 import work5 from './assets/superhero.mp4';
 import work6 from './assets/music.mp4';
 
-// import work1 from './assets/work1.png';
-// import work2 from "./assets/work2.png";
-// import work3 from "./assets/work3.png";
-// import work4 from "./assets/work4.png";
-// import work5 from "./assets/work5.png";
-// import work6 from "./assets/work6.png";
 
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"]
 
@@ -153,7 +147,7 @@ export const workImages = [
 
 
 export const workNavs = [
-  // "All", "Web", "Design"
+  
 ]
 
 export const contacts = [
