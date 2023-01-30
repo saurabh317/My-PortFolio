@@ -30,6 +30,7 @@ const About = () => {
             whileHover={{ y: -48, x: -55 }}
             transition={{ duration: 0.3 }}
           />
+          <p>Web Developer</p>
         </motion.div>
         <motion.div className="about_right"
           initial={{ x: 0, opacity: 0 }}

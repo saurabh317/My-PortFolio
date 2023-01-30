@@ -5,7 +5,7 @@ const Experience = () => {
             <section id={styles.experience}>
                 <div className={styles.mainContainer}>
                     <div className={styles.container}>
-                        <span className={styles.spa}><p className={styles.para}>Development</p></span>
+                        <span className={styles.spa}><p className={styles.para}>Web Development</p></span>
                     </div>
                     <div className={styles.content}>
                     <li>learning development since 2021</li>

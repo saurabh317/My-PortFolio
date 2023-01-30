@@ -7,7 +7,7 @@
 
 .mainContainer {
   padding: 1rem;
-  background-color:#0D0C0C;
+  background-color:#020012;
   border: 2px solid #21d49e;
   width: 25rem;
   border-radius: 10px;
@@ -18,11 +18,14 @@
 }
 .container {
   background-color: #21d49e;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   width: 75%;
-  height:5rem;
-  border-radius: 0 0 2rem 2rem;
-  text-align: center;
+  height:4rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   
 }
 
@@ -34,8 +37,15 @@
 }
 
 .para{
-  margin-top: 0.8rem;
+  line-height: 1.3;
 }
+
+@media screen and (max-width: 450px) {
+  .para{
+    font-size: 1.2rem;
+  }
+}
+
 
 .content{
   margin-top: 1rem;
