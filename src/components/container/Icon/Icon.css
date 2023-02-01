@@ -6,7 +6,7 @@
   gap: 0.7rem;
   left: 2rem;
   bottom: 4rem;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .icons a {
@@ -21,7 +21,7 @@
   color: #20c997;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 550px) {
   .icons a {
     display: none;
   }
