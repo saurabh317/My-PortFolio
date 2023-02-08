@@ -1,8 +1,5 @@
 import {   FaPhoneAlt, FaUser, FaMapMarkerAlt, FaPaperPlane, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
-// import { DiJavascript } from "react-icons/di";
-// import { SiTailwindcss } from "react-icons/si";
 import { BsMedium } from "react-icons/bs";
-// import portfolio from "./assets/portfolio.jpg"
 import c from './assets/c.png';
 import cpp from './assets/cpp.png';
 import java from './assets/java.png';
