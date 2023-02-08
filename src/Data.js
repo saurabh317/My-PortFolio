@@ -83,12 +83,12 @@ export const finishes = [
   },
   {
     id: 2,
-    number: "10+",
+    number: "20+",
     itemName: "Mini projects"
   },
   {
     id: 3,
-    number: "3+",
+    number: "5+",
     itemName: "Major Projects"
   },
 
