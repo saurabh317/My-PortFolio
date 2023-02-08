@@ -164,6 +164,6 @@ export const contacts = [
   {
     id: 3,
     icon: <FaPhoneAlt />,
-    infoText: "9123486054"
+    infoText: "+91-9123486054"
   }
 ]
