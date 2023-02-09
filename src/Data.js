@@ -80,7 +80,7 @@ export const finishes = [
   },
   {
     id: 2,
-    number: "20+",
+    number: "50+",
     itemName: "Mini projects"
   },
   {
