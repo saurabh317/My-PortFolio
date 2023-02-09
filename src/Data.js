@@ -97,7 +97,7 @@ export const workImages = [
     name: "project 1",
     category: "web",
     git:"https://github.com/saurabh317/TRACy-CRYPTO-APP",
-    liveDemo:"",
+    liveDemo:"https://crypto-hunter.netlify.app/",
 
   },
   {
@@ -122,7 +122,7 @@ export const workImages = [
     name: "project 4",
     category: "app",
     git:"https://github.com/saurabh317/BANKIST-FRONT-END-",
-    liveDemo:"",
+    liveDemo:"https://bankist-7ee205.netlify.app/",
   },
   {
     id: 5,
