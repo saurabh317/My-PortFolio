@@ -12,12 +12,14 @@ import bootstrap from './assets/bootstrap.png'
 import talwind from './assets/talwind.png';
 import figma from './assets/figma.png';
 import firebase from './assets/firebase.png';
-import work1 from "./assets/crypto.mp4";
-import work2 from "./assets/portfolio.mp4";
-import work3 from "./assets/omnifood.mp4";
-import work4 from './assets/bankist.mp4';
+import work1 from './assets/nike-store.mp4';
+import work2 from "./assets/crypto.mp4";
+import work3 from "./assets/netflix.mp4";
+import work4 from "./assets/portfolio.mp4";
 import work5 from './assets/superhero.mp4';
-import work6 from './assets/music.mp4';
+import work6 from './assets/bankist.mp4';
+
+
 
 
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"]
@@ -96,8 +98,8 @@ export const workImages = [
     img: work1,
     name: "project 1",
     category: "web",
-    git:"https://github.com/saurabh317/TRACy-CRYPTO-APP",
-    liveDemo:"https://crypto-hunter.netlify.app/",
+    git:"https://github.com/saurabh317/NIKE-STORE",
+    liveDemo:"https://nike-store317.netlify.app/",
 
   },
   {
@@ -105,24 +107,24 @@ export const workImages = [
     img: work2,
     name: "project 2",
     category: "web",
-    git:"https://github.com/saurabh317/My-PortFolio",
-    liveDemo:"",
+    git:"https://github.com/saurabh317/TRACy-CRYPTO-APP",
+    liveDemo:"https://crypto-hunter.netlify.app/",
   },
   {
     id: 3,
     img: work3,
     name: "project 3",
     category: "web",
-    git:"https://github.com/saurabh317/OMNI__FOOD-FRONT-END-",
-    liveDemo:"",
+    git:"https://github.com/saurabh317/NETFLIX-CLONE",
+    liveDemo:"https://netflix317.netlify.app/",
   },
   {
     id: 4,
     img: work4,
     name: "project 4",
     category: "app",
-    git:"https://github.com/saurabh317/BANKIST-FRONT-END-",
-    liveDemo:"https://bankist-7ee205.netlify.app/",
+    git:"https://github.com/saurabh317/My-PortFolio",
+    liveDemo:"",
   },
   {
     id: 5,
@@ -137,8 +139,8 @@ export const workImages = [
     img: work6,
     name: "project 6",
     category: "design",
-    git:"https://github.com/saurabh317/MUSIC__PLAYER-FRONT-END",
-    liveDemo:"",
+    git:"https://github.com/saurabh317/BANKIST-FRONT-END-",
+    liveDemo:"https://bankist317.netlify.app/",
   }
 ]
 

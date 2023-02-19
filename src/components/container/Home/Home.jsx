@@ -41,10 +41,15 @@ const Home = () => {
             <div className="ui">UI/UX Designer</div>
             <div className="freelance">Freelancer</div>
           </div>
+          {/* <motion.span
+             initial={{ opacity: 0 }}
+             whileInView={{ y: [-50, 0], opacity: 1 }}
+             className="text"> */}
           <span className="text">
             Passionate
             <br /> to craft innovative <br /> web products.
           </span>
+          {/* </motion.span> */}
           <motion.a
             href="#contact"
             whileHover={{ scale: 1.1 }}

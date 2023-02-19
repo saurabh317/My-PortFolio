@@ -1,3 +1,21 @@
+ :root{
+    --body_background :#020012;
+ }
+
+ /* [data-theme = "dark"]{
+    --body_background:#020012;
+    
+}  */
+/* [data-theme = "Light"]{
+    --body_background:white;
+
+
+
+} */
+
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -6,10 +24,15 @@
     /* overflow-x: hidden; */
 }
 body {
-    background: #020012;
+    background: var(--body_background);
     font-family: "Poppins", sans-serif;
     font-weight: 500;
 }
+
+body.day {
+    background-color: #fff;
+}
+
 img {
     width: 100%;
 }

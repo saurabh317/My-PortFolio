@@ -139,6 +139,10 @@
 }
 
 .videos{
+    // object-fit: fill;
+    background-position: center;
+    background-size: cover;
+    // object-fit: cover;
     object-fit: fill;
 }
 
