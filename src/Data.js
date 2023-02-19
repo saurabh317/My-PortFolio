@@ -99,7 +99,7 @@ export const workImages = [
     name: "project 1",
     category: "web",
     git:"https://github.com/saurabh317/NIKE-STORE",
-    liveDemo:"https://nike-store317.netlify.app/",
+    liveDemo:"https://nikestore317.netlify.app/",
 
   },
   {
